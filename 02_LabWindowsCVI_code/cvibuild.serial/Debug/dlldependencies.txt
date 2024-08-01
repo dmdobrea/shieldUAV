@@ -1,0 +1,6 @@
+cvi.lib
+cvirte.dll
+kernel32.lib
+KERNEL32.dll
+user32.lib
+USER32.dll

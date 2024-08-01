@@ -1,0 +1,1 @@
+-force-include-file "serial.c";"d:\Cercetare\Analize-Proiecte\2024-kamikaze_drone\Siftware paclages\02_codul LabWindowsCVI\serial.c" -force-include-file "serial.h";"d:\Cercetare\Analize-Proiecte\2024-kamikaze_drone\Siftware paclages\02_codul LabWindowsCVI\serial.h" 

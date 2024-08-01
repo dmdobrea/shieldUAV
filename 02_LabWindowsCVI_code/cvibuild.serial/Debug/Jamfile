@@ -1,0 +1,44 @@
+CCFLAGS = -g ;
+HDRS = 	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\word"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\activex\\excel"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\custctrl\\custsupp"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\cvirtsup"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\datasock"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\daqUtil"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\printing"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\toolbox"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\reportgen"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\toolslib\\localui"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\instr"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\toolslib\\custctrl\\custsupp"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\instr"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\instr"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\include"
+	"C:\\ProgramData\\National Instruments\\CVI2017\\include"
+	"C:\\ProgramData\\National Instruments\\CVI\\include"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\ansi"
+	"c:\\program files (x86)\\national instruments\\cvi2017\\include\\clang\\3.3"
+	"C:\\Program Files (x86)\\IVI Foundation\\IVI\\Include"
+	"C:\\Program Files (x86)\\IVI Foundation\\VISA\\winnt\\include"
+	"C:\\Program Files (x86)\\National Instruments\\Shared\\MSDTRedistributables\\SDKHeaderFiles\\8.1"
+	"c:\\Program Files (x86)\\National Instruments\\CVI2017\\bin"
+	"c:\\ProgramData\\National Instruments\\CVI2017\\bin"
+	"c:\\Program Files (x86)\\National Instruments\\Shared\\CVI\\Bin"
+	;
+include Jamfile_instr ;
+LOCATE on "serial.c" = "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI" ;
+LOCATE on "serial.h" = "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI" ;
+Object "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\serial.obj" : "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\serial.c" ;
+FILENUM on "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\serial.obj" = 1 ;
+DEFPROTS on "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\serial.obj" = "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\serial.obj.cvidefprots" ;
+OUTFILE on "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\serial.obj" = "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\serial.obj.out" ;
+PrjObjects += "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\serial.obj" ;
+Object "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\resources.res" : "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\resources.in.rc" ;
+Depends "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\resources.res" : "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\manifest.xml" ;
+MainFromObjects "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\serial_dbg.exe" : $(PrjObjects) $(InstrObjects) ;
+Depends "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\serial_dbg.exe" : "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\link_options.txt" ;
+Depends "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\serial_dbg.exe" : "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\resources.res" ;
+Depends all : "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\serial_dbg.exe" ;

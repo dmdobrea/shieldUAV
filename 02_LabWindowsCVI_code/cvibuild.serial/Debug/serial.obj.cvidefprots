@@ -1,0 +1,128 @@
+[main]
+Class="Function"
+Prototype="int main(int argc, char **argv);"
+
+[SetConfigParms]
+Class="Function"
+Prototype="void SetConfigParms();"
+
+[GetConfigParms]
+Class="Function"
+Prototype="void GetConfigParms();"
+
+[ConfigCallBack]
+Class="Function"
+Prototype="int ConfigCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[CloseConfigCallback]
+Class="Function"
+Prototype="int CloseConfigCallback(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[EnablePanelControls]
+Class="Function"
+Prototype="void EnablePanelControls(int enable);"
+
+[ActivateSendControls]
+Class="Function"
+Prototype="void ActivateSendControls(int enable);"
+
+[ClearBoxCallBack]
+Class="Function"
+Prototype="int ClearBoxCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SendModeCallBack]
+Class="Function"
+Prototype="int SendModeCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[FlushInCallBack]
+Class="Function"
+Prototype="int FlushInCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[FlushOutQCallBack]
+Class="Function"
+Prototype="int FlushOutQCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[GetInQCallBack]
+Class="Function"
+Prototype="int GetInQCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[GetOutQCallBack]
+Class="Function"
+Prototype="int GetOutQCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ComStatusCallBack]
+Class="Function"
+Prototype="int ComStatusCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DisplayComStatus]
+Class="Function"
+Prototype="void DisplayComStatus();"
+
+[SendCallBack]
+Class="Function"
+Prototype="int SendCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Send1000]
+Class="Function"
+Prototype="int Send1000(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[Send2000]
+Class="Function"
+Prototype="int Send2000(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[SendByte]
+Class="Function"
+Prototype="void SendByte();"
+
+[SendAscii]
+Class="Function"
+Prototype="void SendAscii();"
+
+[ErrorCallBack]
+Class="Function"
+Prototype="int ErrorCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[ReadCallBack]
+Class="Function"
+Prototype="int ReadCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[InputQCallBack]
+Class="Function"
+Prototype="int InputQCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[QuitCallBack]
+Class="Function"
+Prototype="int QuitCallBack(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[DisplayRS232Error]
+Class="Function"
+Prototype="void DisplayRS232Error();"
+
+[DisplayHelp]
+Class="Function"
+Prototype="void DisplayHelp(int HelpId);"
+
+[fPWM2]
+Class="Function"
+Prototype="int fPWM2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[fPWM1]
+Class="Function"
+Prototype="int fPWM1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[fLED1]
+Class="Function"
+Prototype="int fLED1(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[fLED2]
+Class="Function"
+Prototype="int fLED2(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[fLED3]
+Class="Function"
+Prototype="int fLED3(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+
+[fSend_ALL]
+Class="Function"
+Prototype="int fSend_ALL(int panel, int control, int event, void *callbackData, int eventData1, int eventData2);"
+

@@ -1,0 +1,39 @@
+#include "C:\Program Files (x86)\National Instruments\Shared\MSDTRedistributables\SDKHeaderFiles\8.1\winver.h"
+
+2 ICON "c:\\program files (x86)\\national instruments\\cvi2017\\bin\\default.ico"
+1 24 "d:\\Cercetare\\Analize-Proiecte\\2024-kamikaze_drone\\Siftware paclages\\02_codul LabWindowsCVI\\cvibuild.serial\\Debug\\manifest.xml"
+
+
+STRINGTABLE DISCARDABLE
+BEGIN
+  65535  "serial_dbg"
+END
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,0
+ PRODUCTVERSION 1,0,0,0
+ FILEFLAGSMASK VS_FFI_FILEFLAGSMASK
+ FILEFLAGS 0x1L
+ FILEOS VOS__WINDOWS32
+ FILETYPE VFT_APP
+ FILESUBTYPE VFT_UNKNOWN
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "serial_dbg (Debug x86)\0"
+            VALUE "FileVersion", "1.0\0"
+            VALUE "InternalName", "serial_dbg\0"
+            VALUE "LegalCopyright", "Copyright ©  2024\0"
+            VALUE "OriginalFilename", "serial_dbg.exe\0"
+            VALUE "ProductName", " serial_dbg\0"
+            VALUE "ProductVersion", "1.0\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 0x4b0
+    END
+END
