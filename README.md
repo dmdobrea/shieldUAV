@@ -1,5 +1,5 @@
 # An autonomous shieldUAV to protect and save lives
-This repository was developed in the context of the Pervasive AI Developer Contest with AMD (link: (https://www.hackster.io/contests/amd2023)), and it is our contribution Dobrea Dan-Marius & Dobrea Matei-Ștefan to the contest.
+This repository was developed in the context of the Pervasive AI Developer Contest with AMD (link: https://www.hackster.io/contests/amd2023), and it is our contribution Dobrea Dan-Marius & Dobrea Matei-Ștefan to the contest.
 ## Detection algorithm
 One of the main contributions of our team to this contest is the development of a **new algorithm** that combines **YOLO** and **correlation tracking algorithm** to follow all the time-designated **UAV** in all the frames. Even if the **YOLO** is a state-of-the-art detection algorithm, its performance is not 100%. Moreover, due to the quantization of the model (in order to be able to run on **Kria KR260**), the performance of the **YOLO** model decreases further.
 
