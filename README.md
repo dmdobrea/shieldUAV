@@ -8,6 +8,10 @@ An important project component is the application with which we acquired the ima
 
 <img src="https://github.com/dmdobrea/shieldUAV/blob/main/Images/PMOD_LED_butt.PNG" width="480"/>
 
+The schematic of this hardware component is as follows:
+
+<img src="https://github.com/dmdobrea/shieldUAV/blob/main/Images/PMOD.png" width="480"/>
+
 ## Detection algorithm
 One of the main contributions of our team to this contest is the development of a **new algorithm** that combines **YOLO** and **correlation tracking algorithm** to follow all the time-designated **UAV** in all the frames. Even if the **YOLO** is a state-of-the-art detection algorithm, its performance is not 100%. Moreover, due to the quantization of the model (in order to be able to run on **Kria KR260**), the performance of the **YOLO** model decreases further.
 
