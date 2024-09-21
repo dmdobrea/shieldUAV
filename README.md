@@ -17,11 +17,9 @@ One of the main contributions of our team to this contest is the development of 
 
 A short video demonstration is presented in the following video:
 
-[![Everything Is AWESOME](https://github.com/dmdobrea/shieldUAV/blob/main/Images/Youtube_3UAV.PNG)](https://youtu.be/67_oauHjYTA "Everything Is AWESOME")
-
 <div align="left">
       <a href="https://youtu.be/67_oauHjYTA">
-         <img src="https://github.com/dmdobrea/shieldUAV/blob/main/Images/Youtube_3UAV.PNG" style="width:50%;">
+         <img src="https://github.com/dmdobrea/shieldUAV/blob/main/Images/Youtube_3UAV.PNG" style="width:75%;">
       </a>
 </div>
 
