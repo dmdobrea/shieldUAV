@@ -33,7 +33,6 @@ The code used to get the result from the previous video is the one from here: _*
 An essential component of the activities carried out within the **Pervasive AI Developer Contest with AMD** was obtaining neural models capable of detecting two types of **UAV** systems: drones and airplanes. As we explained in the project report, we could only get the neural models for **YOLOv3 tiny**, **YOLOv3**, **YOLOv7 tiny**, and **YOLOv7**. The performances obtained after running them on the **DPU** module inside the **Kria KR260** development system are those presented in the table below.
 
 <img src="https://github.com/dmdobrea/shieldUAV/blob/main/Images/YOLO%20performance.PNG" width="640"/>
-
 From the above table, it can be seen that the performances of the neural models in **YOLOv3 tiny** and **YOLOv7 tiny** are somewhat similar (24.9 ms versus 30.5 ms) with an advantage in favor of the **YOLOv3 tiny** model. Unfortunately, decoding the outputs of the neural model (performed within the evaluated function) takes a long time in the **YOLOv7 tiny** model due to the large number of boxes detected. This led us to use the **YOLOv3 tiny** neural model.
 
 
