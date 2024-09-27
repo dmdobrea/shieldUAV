@@ -99,7 +99,7 @@ class VideoDataSubscriber(Node):
         ret_code, jpg_buffer = cv2.imencode(".jpg", send_frame, [int(cv2.IMWRITE_JPEG_QUALITY), jpeg_quality])
 
         # send the frame to the server
-        self.sender.send_jpg(self.kr260_Name, jpg_buffer)   # with this line 0.06[s]; witout this line 0.33...0.6 [s]
+        self.sender.send_jpg(self.kr260_Name, jpg_buffer) 
 
   
 def main(args=None):
