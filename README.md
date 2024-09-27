@@ -35,5 +35,7 @@ An essential component of the activities carried out within the **Pervasive AI D
 <img src="https://github.com/dmdobrea/shieldUAV/blob/main/Images/YOLO%20performance.PNG" width="640"/>
 From the above table, it can be seen that the performances of the neural models in **YOLOv3 tiny** and **YOLOv7 tiny** are somewhat similar (24.9 ms versus 30.5 ms) with an advantage in favor of the **YOLOv3 tiny** model. Unfortunately, decoding the outputs of the neural model (performed within the evaluated function) takes a long time in the **YOLOv7 tiny** model due to the large number of boxes detected. This led us to use the **YOLOv3 tiny** neural model.
 
+## The software components developed in ROS2
 
+<img src="https://github.com/dmdobrea/shieldUAV/blob/main/Images/rqt.png" width="1200"/>
 
