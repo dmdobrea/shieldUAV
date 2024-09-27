@@ -37,5 +37,9 @@ From the above table, it can be seen that the performances of the neural models 
 
 ## The software components developed in ROS2
 
+The software part of the shieldUAV drone was developed entirely in Python. 
+	For its development we used the support of Robot Operating System 2 (ROS). The application consists of five ROS 2 nodes that are embedded into a single ROS package.
+	Each node is associated with a specific Python file (***video.py***, ***detection.py***, ***broadcast.py***, ***control.py*** and ***velocity.py*** - see 11_kamikaze_uav), being mainly a specific process that is performing a specific task.
+
 <img src="https://github.com/dmdobrea/shieldUAV/blob/main/Images/rqt.png" width="1200"/>
 
