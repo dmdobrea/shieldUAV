@@ -48,7 +48,6 @@ The software part of the shieldUAV drone was developed entirely in Python.
 	Each node is associated with a specific Python file (***video.py***, ***detection.py***, ***broadcast.py***, ***control.py*** and ***velocity.py*** - see 11_kamikaze_uav), being mainly a specific process that is performing a specific task.
 
 <img src="https://github.com/dmdobrea/shieldUAV/blob/main/Images/rqt.png" width="1200"/>
-
 	A frame obtained from **video_publisher_node** is detected inside the video_detection_node and the result in this configuration is streamed via **video_broadcast_node**. 
 	The shieldUAV package embeds a specific Python module that allows the user to configure the source of the video input stream. In this mode, the input images stream can be taken from: (a) an input video file, (b) a **USB** camera, or (c) a network camera.
 	The **video_broadcast_node** is also able to connect to **video_publisher_node** in order to get raw images. The streaming is done based on ZeroMQ streaming protocol to the base station based on the existing WiFi link. 
